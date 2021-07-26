@@ -64,7 +64,7 @@ export default function HeroList () {
                                 Appearance:
                             </CardText>
                             <CardText style={{color: 'black', fontSize: 20}}>
-                            <strong>combat:gender:</strong> {hero.appearance.gender}<br />
+                            <strong>gender:</strong> {hero.appearance.gender}<br />
                             <strong>race:</strong> {hero.appearance.race}<br />
                             <strong>height:</strong> {hero.appearance.height}<br />
                             <strong>weight:</strong> {hero.appearance.weight}<br />
