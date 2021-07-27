@@ -9,7 +9,7 @@ export default function HeroList () {
     //Hook to check loading state
     const [isLoaded, setIsLoaded] = useState(false)
     //Hook to render hero data
-    const [heros, setHeros] = useState([])
+    const [heroes, setheroes] = useState([])
     //Hook for collapsing data
     const [isOpen, setIsOpen] = useState(false);
     //Function for toggling collapsing data
@@ -21,7 +21,7 @@ export default function HeroList () {
             .then(res => res.json())
             .then((result) => {
                 setIsLoaded(true)
-                setHeros(result)
+                setheroes(result)
             },
             (error) => {
                 setIsLoaded(true)
@@ -37,9 +37,9 @@ export default function HeroList () {
     } else{
         return(
             <div>
-                <h1> Heros </h1>
+                <h1> Heroes List </h1>
                 {/* Mapping API information to a card for each individual hero */}
-                {heros.map(hero => (
+                {heroes.map(hero => (
                 <Card style={{ width: '25rem', backgroundColor: "#303030" }}>
                 <CardImg variant="left" src={hero.images.md} />
                     <CardTitle style={{color: "EBEBEB"}}>{hero.name}</CardTitle>
