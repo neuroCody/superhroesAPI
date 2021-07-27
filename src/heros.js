@@ -96,8 +96,9 @@ export default function HeroList () {
                             <strong>occupation:</strong> {hero.work.occupation}<br />
                             <strong>base:</strong> {hero.work.base}
                             </CardText>
-                            {/* Work Details: Start */}
+                            {/* Work Details: End */}
 
+                            {/* Work Details: Start */}
                             <CardText style={{color: 'black'}}>
                             Connections:
                             </CardText>
