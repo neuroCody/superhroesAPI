@@ -98,7 +98,7 @@ export default function HeroList () {
                             </CardText>
                             {/* Work Details: End */}
 
-                            {/* Work Details: Start */}
+                            {/* Connections Details: Start */}
                             <CardText style={{color: 'black'}}>
                             Connections:
                             </CardText>
@@ -106,7 +106,7 @@ export default function HeroList () {
                             <strong>groupAffiliation:</strong> {hero.connections.groupAffiliation}<br />
                             <strong>relatives:</strong> {hero.connections.relatives}
                             </CardText>
-                            {/* Work Details: End */}
+                            {/* Connections Details: End */}
                         </Collapse>
                         
                     </CardBody>
