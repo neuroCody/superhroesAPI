@@ -55,20 +55,15 @@ export default function HeroList (props) {
                 }).map(hero => (
                     <div key={hero.id}>
                         <div style={{ padding: 10, margin: 10  }}>
+                            Cards rendered for each hero
                             <img src={hero.images.md} style={{borderRadius: 0}} className="heroImage" />
                             <div style={{backgroundColor: "rgba(0, 18, 25, 0.9)", display: "flex", alignItems: "center", justifyContent: "center"}}>
                             <p style={{ fontSize:25, color: "#FFE5CC"}}>{hero.name}</p>
                             </div>
                         </div>
-                        
-                    </div>    
+                    </div>
                 ))}
-                <div>
                 </div>
-                </div>
-
-                   
-                
             </div>
             
         )
