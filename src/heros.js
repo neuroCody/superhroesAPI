@@ -34,7 +34,8 @@ export default function HeroList (props) {
             bottom: 'auto',
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
-            width: "40%",
+            heigh: "50%vh",
+            width: "30%",
             paddingLeft: 10, 
         },
     };
@@ -201,7 +202,7 @@ console.log(modalData)
                         <strong>Alter Egos:</strong> {modalData.biography.alterEgos}<br />
                         <strong>Aliases:</strong> {modalData.biography.aliases}<br />
                         <strong>Place Of Birth:</strong> {modalData.biography.placeOfBirth}<br />
-                        <strong>f\First Appearance:</strong> {modalData.biography.firstAppearance}<br />
+                        <strong>First Appearance:</strong> {modalData.biography.firstAppearance}<br />
                         <strong>Publisher:</strong> {modalData.biography.publisher}<br />
                         <strong>Alignment:</strong> {modalData.biography.alignment}
                     </p>
